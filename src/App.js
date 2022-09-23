@@ -7,6 +7,8 @@ import EditProfile from './components/Settings/EditProfile/EditProfile';
 import ChangePassword from './components/Settings/ChangePassword/ChangePassword';
 import HelpSupport from './components/Settings/HelpSupport/HelpSupport';
 import NotificationFinal from './components/Notification/notifiFin';
+import SearchDropDownItem from './components/SearchDropdown/serchDropitem';
+import SearchDropDown from './components/SearchDropdown/searchDrop';
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
         <Route path="changePassword" element={<ChangePassword />} />
         <Route path="help" element={<HelpSupport />} />
         <Route path="noti" element={<NotificationFinal />} />
+        <Route path="ser" element={<SearchDropDown />} />
+
       </Routes>
     </div>
   );

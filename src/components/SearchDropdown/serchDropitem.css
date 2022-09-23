@@ -1,0 +1,40 @@
+.serImg {
+    padding: 15px 0px 20px 50px;
+
+}
+
+.serImg img {
+    border-radius: 100px;
+}
+
+.searchDropCard {
+    background: linear-gradient(175.81deg, #1F1D1D 4.79%, #2F2B2B 48.13%, #121111 108.81%);
+    border-radius: 5px;
+}
+
+.SUserName {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.SRealName {
+    color: rgba(187, 178, 178, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.SContent {
+    margin-top: auto;
+    /* margin-bottom: auto; */
+}
+
+.Follow {
+    background-color:rgba(87, 62, 62, 1);
+    text-align: center;
+    color: white;
+    
+}
+.FollowButton{
+    border-radius: 5px;
+    padding: 5px 15px !important;
+}

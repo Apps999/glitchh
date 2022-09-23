@@ -7,7 +7,7 @@ const NotifiItem = (props) => {
     // 
     return (<div className={(props.active=="true") ? "unreadNoti" : ""}>
         <div className="card background notiSingle">
-            <div className="row" style={{"justify-content": "space-between"}}>
+            <div className="row" style={{"justifyContent": "space-between"}}>
                 <div className="col-1 notiImg">
                     <img src={pic} alt="" />
                 </div>
